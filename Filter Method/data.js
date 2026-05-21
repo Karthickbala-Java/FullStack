@@ -1,0 +1,95 @@
+import budget from "./index.js";
+export const trips = [
+  {
+    id: 1,
+    destination: "Paris, France",
+    description: "Romantic city break in Paris visiting iconic landmarks.",
+    startDate: "2025-06-10",
+    endDate: "2025-06-17",
+    travelers: 2,
+    budget: 2800,
+    activities: ["Eiffel Tower", "Louvre Museum", "Seine River Cruise"],
+  },
+  {
+    id: 2,
+    destination: "Kyoto, Japan",
+    description:
+      "Cultural trip in Kyoto exploring temples and traditional tea ceremonies.",
+    startDate: "2025-09-05",
+    endDate: "2025-09-12",
+    travelers: 4,
+    budget: 3600,
+    activities: ["Temple Visits", "Tea Ceremony", "Bamboo Forest"],
+  },
+  {
+    id: 3,
+    destination: "Cape Town, South Africa",
+    description:
+      "Adventure and wine tasting around Cape Town and the peninsula.",
+    startDate: "2025-11-20",
+    endDate: "2025-11-28",
+    travelers: 3,
+    budget: 4200,
+    activities: ["Table Mountain", "Winelands", "Cape Peninsula"],
+  },
+  {
+    id: 4,
+    destination: "Vancouver, Canada",
+    description:
+      "Outdoor-focused trip with parks, markets and a mountain day trip.",
+    startDate: "2026-04-15",
+    endDate: "2026-04-22",
+    travelers: 2,
+    budget: 3100,
+    activities: ["Stanley Park", "Granville Island", "Whistler Day Trip"],
+  },
+];
+
+export const trips2 = [
+  {
+    id: 1,
+    destination: "Rome, Italy",
+    description:
+      "Historic city tour covering ancient ruins and Vatican highlights.",
+    startDate: "2025-07-12",
+    endDate: "2025-07-19",
+    travelers: 2,
+    budget: 3000,
+    activities: ["Colosseum", "Vatican Museums", "Trevi Fountain"],
+  },
+  {
+    id: 2,
+    destination: "Bali, Indonesia",
+    description:
+      "Relaxing island getaway with rice terraces, beaches and waterfalls.",
+    startDate: "2025-10-01",
+    endDate: "2025-10-08",
+    travelers: 3,
+    budget: 2500,
+    activities: ["Ubud Rice Terraces", "Beach Day", "Waterfall Hike"],
+  },
+  {
+    id: 3,
+    destination: "Barcelona, Spain",
+    description:
+      "Vibrant city break featuring Gaudí architecture and lively streets.",
+    startDate: "2025-12-05",
+    endDate: "2025-12-12",
+    travelers: 4,
+    budget: 3400,
+    activities: ["Sagrada Familia", "Park Güell", "La Rambla"],
+  },
+  {
+    id: 4,
+    destination: "Sydney, Australia",
+    description:
+      "Iconic Australian city visit with beaches and harbour sights.",
+    startDate: "2026-03-10",
+    endDate: "2026-03-17",
+    travelers: 2,
+    budget: 3800,
+    activities: ["Sydney Opera House", "Bondi Beach", "Harbour Bridge"],
+  },
+];
+
+console.log(budget(trips, "city"));
