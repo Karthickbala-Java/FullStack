@@ -75,3 +75,18 @@ export const trips2 = [
     activities: ["Sydney Opera House", "Bondi Beach", "Harbour Bridge"],
   },
 ];
+export let name1, name2;
+export const num1 = 10;
+export const add = (a, b) => {
+  return a + b;
+};
+const obj = {
+  name: "John",
+  age: 30,
+};
+export let { name, age } = obj;
+const arr = [1, 2, 3, 4, 5];
+export let [first, second] = arr;
+
+let userName = "Alice";
+export { userName as "user-name" };

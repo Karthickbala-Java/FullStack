@@ -1,4 +1,10 @@
-import { trips as trip1, trips2 } from "./data.js";
-
-console.log(trip1[0].destination);
-console.log(trips2[1].activities);
+import { name1, name2, num1, add } from "./data.js";
+import { name, age } from "./data.js";
+import { first, second } from "./data.js";
+import { userName } from "./data.js";
+console.log(add(1, 2));
+console.log(name);
+console.log(age);
+console.log(first);
+console.log(second);
+console.log(userName);
